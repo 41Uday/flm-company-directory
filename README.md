@@ -52,7 +52,7 @@ companies-directory/
 
 1. **Clone the repository**
 
-   git clone https://github.com/YOUR_USERNAME/companies-directory-frontend.git
+   git clone https://github.com/41Uday/flm-company-directory.git
   
 2. **Move into the project folder**
 
@@ -66,7 +66,7 @@ companies-directory/
 
    npm start
 
-The app will start running at **[http://localhost:3000](http://localhost:3000)**
+The app will start running at **(http://localhost:3000)**
 
 ---
 
@@ -84,3 +84,7 @@ The app will start running at **[http://localhost:3000](http://localhost:3000)**
 ## 🎥 Demo Video
 
 **Walkthrough Link:** [Add your Loom or Drive video link here]
+
+# 🌐 Live Demo
+
+The app is deployed on **Vercel** and can be accessed here:  https://flm-company-directory.vercel.app
