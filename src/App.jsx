@@ -25,7 +25,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("/src/api/companies.json");
+      const response = await fetch("/companies.json");
       if (!response.ok) {
         setError("Failed to fetch companies");
         setLoading(false);
