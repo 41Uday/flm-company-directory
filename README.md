@@ -1,16 +1,56 @@
-# React + Vite
+ Companies Directory – Frontend Developer Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive React web app built as part of the Frontend Developer Assignment for Frontlines Media.
+It displays a list of companies with options to search, filter, sort, and paginate, ensuring a clean and smooth user experience across all devices.
 
-Currently, two official plugins are available:
+ Features
+  -> Responsive Design – Works seamlessly on desktop, tablet, and mobile using Material UI’s grid system.
+  -> Search & Filters – Quickly find companies by name, location, or industry.
+  -> Sorting – Sort results alphabetically (A–Z or Z–A).
+  -> Pagination – Adjusts dynamically based on screen size:
+    -> 12 per page on desktop
+    -> 6 per page on tablets
+    -> 4 per page on mobile
+  -> Loading & Error States – Includes clear feedback and a retry option for failed fetches.
+  -> Optimized Performance – Uses useMemo and useCallback to avoid unnecessary re-renders.
+  -> Clean Component Structure – Built with modular, reusable components.
+  
+ Tech Stack
+  -> React.js (Hooks & Functional Components)
+  -> Material UI (MUI) for responsive layout and UI components
+  -> Mock API – Local JSON file (src/api/companies.json) used to simulate API data
+  -> JavaScript (ES6+)
+ Folder Structure
+  companies-directory/
+  ├── src/
+  │   ├── api/
+  │   │   └── companies.json
+  │   ├── components/
+  │   │   ├── Filters.js
+  │   │   ├── CompaniesGrid.js
+  │   │   └── CompanyCard.js
+  │   └── App.js
+  ├── package.json
+  └── README.md
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Getting Started
+  -> Clone the repository
+  -> git clone https://github.com/41Uday/flm-company-directory.git
+  -> Move into the project folder
+  -> cd companies-directory-frontend
+  -> Install dependencies
+  -> npm install
+  -> Start the app
+  -> npm start
+  -> The app will start running at http://localhost:3000
 
-## React Compiler
+ Development Approach
+    -> Focused on clean and user-friendly UI with a fully responsive design.
+    -> Used React Hooks (useState, useEffect, useMemo, useCallback) for state and performance optimization.
+    -> Material UI was chosen for its modern components and built-in responsiveness.
+    -> Implemented pagination for smoother browsing through large datasets.
+    -> Added error handling and retry logic for better reliability.
+    -> Mock data is loaded from src/api/companies.json to simulate an API call.
+ Demo Video
+  -> Walkthrough Link: [Add your Loom or Drive video link here]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
