@@ -83,7 +83,7 @@ The app will start running at **(http://localhost:3000)**
 
 ## 🎥 Demo Video
 
-**Walkthrough Link:**  https://screenapp.io/app/#/shared/t05Dpc5iE_
+**Walkthrough Link:**(https://screenapp.io/app/#/shared/t05Dpc5iE_)
 
 # 🌐 Live Demo
 
